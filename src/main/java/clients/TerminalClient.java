@@ -4,7 +4,6 @@ import server.services.TerminalReader;
 import clients.terminal.TerminalMenuOption;
 import clients.terminal.TerminalPlayListDeleterClient;
 import clients.terminal.TerminalPlayListSaverClient;
-
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Collections;

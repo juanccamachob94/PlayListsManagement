@@ -53,7 +53,6 @@ public static void addOnStations(JSONObject jsonObject) throws Exception {
     ).perform(jsonData.toJSONString(), indexRelativeUrl(), "content", "application/json");
   }
 
-
   @SuppressWarnings("unchecked")
   public static void setOnStations(int id, JSONObject jsonObject) throws Exception {
     JSONArray jsonArray = (JSONArray) jsonData.get("stations");
@@ -62,7 +61,6 @@ public static void addOnStations(JSONObject jsonObject) throws Exception {
       StorageClientFactory.getStorageClient(StorageStrategyServer.indexStorage())
     ).perform(jsonData.toJSONString(), indexRelativeUrl(), "content", "application/json");
   }
-
 
   public static void deleteOnStations(int id) throws Exception {
     JSONArray jsonArray = (JSONArray) jsonData.get("stations");

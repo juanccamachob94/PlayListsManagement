@@ -1,6 +1,5 @@
 package server.helpers;
 
-
 public class UrlHelper {
   public static String extension(String url) {
     String response = null;
