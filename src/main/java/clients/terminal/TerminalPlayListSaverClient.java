@@ -33,7 +33,7 @@ public class TerminalPlayListSaverClient implements TerminalOptionClient {
 
   private void createIndexPlayList(DashPlayList dashPlayList) throws Exception {
     String default_thumbnail_image_url =
-      IndexPlayListsManager.indexAbsolutePath() + dashPlayList.getId() + "/thumbnail_image.jpg";
+      IndexPlayListsManager.indexAbsolutePath() + dashPlayList.getId() + "/thumbnail_image.png";
     IndexPlayListsManager.addOnStations(
       buildPlayListJsonObject(default_thumbnail_image_url, dashPlayList)
     );
